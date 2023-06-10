@@ -1,0 +1,13 @@
+CREATE DATABASE final_1166;
+
+CREATE TABLE Alumno;
+
+
+INSERT INTO Alumno (Carnet, Nombre, Grado, Telefono) 
+    VALUES ('0907-23-1166','Kevin Gutierrez','Ingeniería en Sistemas','5521-2866'), 
+    ('0907-23-1218','Antonio Berganza', 'Ingeniería en Sistemas','3021-9810'), 
+    ('0907-23-2720','Melvin Sandoval', 'Ingenería en Sistemas','7618-8119'), 
+    ('0907-23-4766', 'Fernando Carranza','Ingenería en Sistemas','5678-9012'), 
+    ('0907-23-4198', 'Fernando Mejía','Ingenería en Sistemas','56787112');
+
+SELECT * FROM `alumno` WHERE 1
